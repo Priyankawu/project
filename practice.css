@@ -1,0 +1,55 @@
+
+.big_box{
+    height: 450px;
+    width: 480px;
+    border:2px solid black;
+    background: #f7f5f3;
+}
+
+.small_box{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #ffc4d6;
+    background-image: url(./images/icons/smileyface2.png);
+}
+
+.small_box:hover{
+    background-image: url(./images/icons/smileyface1.png);
+    animation:race;
+    animation-duration: 1s; /*duration of one iteration*/
+    animation-iteration-count: infinite;
+   
+    
+}
+@keyframes race {
+    0% 100% {
+        transform: translateY(0px);
+        background-image: url(./images/icons/smileyface1.png);
+    }
+    50% {
+        transform: translateY(330px);
+    }
+}
+
+.small_box:nth-child(1):hover{
+    background-color: aqua;
+}
+.small_box:nth-child(2):hover{
+    background-color: blueviolet;
+}
+.small_box:nth-child(3):hover{
+    background-color:#0284d0;
+}
+.small_box:nth-child(4):hover{
+    background-color:#ff6666;
+}
+
+
+p{
+    text-align: center;
+    margin:1px;
+}
