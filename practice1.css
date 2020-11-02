@@ -1,0 +1,19 @@
+
+.big_container{
+    background-color: teal;
+    border: 2px, solid black;
+}
+
+.image_container{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    border: 2px, solid black;
+    border-radius: 10%;
+}
+
+.image{
+    border: 2px, solid black;
+    height: 50px;
+    width: 50px;
+}
